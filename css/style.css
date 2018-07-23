@@ -1,0 +1,86 @@
+body{
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+    font-size: 15px;
+    background-color: rgb(250,250,250);
+    margin: 0px;
+}
+
+h1{ 
+    font-family: 'Francois One', sans-serif;
+    font-size:40px;
+    color:white;
+    font-weight: lighter;
+
+}
+
+h2{
+    font-weight: lighter;
+    color:white;
+}
+
+h2.label{
+    font-weight: lighter;
+    color:rgb(44, 41, 41);
+
+
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration-line: underline;    
+
+}
+#header{
+    
+    background-image: url('https://picsum.photos/1300/600/?random');
+    margin-bottom: 50px;
+    padding: 150px;
+    background-size: cover;
+    border-radius:2px;
+    text-align: center;
+    text-shadow: 1px, 1px, 5px rgb(44, 41, 41);
+    box-shadow: 1px 1px rgb(230, 230, 230);
+
+}
+#header h1{
+    color:white;
+    font-size: 50px;
+
+}
+
+#header p{
+    color:white;
+    opacity:0.8;
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+.itens{
+    background-color: white;
+    box-shadow: 1px 1px rgb(230, 230, 230);
+    
+}
+
+#footer{
+    background-color: rgb(44, 41, 41);
+    color:lightgray;
+    padding: 10px;
+    margin-top:50px;  
+
+}
+
+#footer a{
+    color:lightgray;
+    font-size: 24px;
+    
+}
+
+#footer a:hover{
+    color:white;
+
+}
+

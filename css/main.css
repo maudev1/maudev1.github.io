@@ -1,12 +1,24 @@
-@media only screen and (max-width: 600px){
-  .br{
-    margin-left: 20px;
-    
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .socialLink{
+    text-align: center;
+    margin: auto;
+  }
+
+  .brand {
+    text-align: center;
+    margin: auto;
   }
 }
 
 body {
   font-family: "Comfortaa", cursive;
+  
 }
 h1,
 h2,
@@ -14,20 +26,32 @@ h3,
 h4,
 h5,
 h6 {
+
   font-weight: lighter;
   text-align: left;
 }
-
-
-.header {
-  /*width:1000px;*/
-  margin: auto;
+.brand {
+  color:#393e46;
+  
+  font-family: inherit;
+  
+  font-size: 19px;
+  margin-right: auto;
+  width: 250px;
+  height: 30px;
 }
+.header {
+  background-color: #f7f7f7;
+  padding: 20px 80px 0px 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .navbar {
   padding: 10px 80px 10px 80px;
-  
-
-  
 }
 .socialMedia {
   font-size: 30px;
@@ -46,6 +70,12 @@ h6 {
 
 .projects {
   padding: 25px;
+  height: 600px;
+  display:block 
+}
+
+.twitter{
+  height: 600px;
 }
 .label {
   font-size: 15px;
@@ -53,7 +83,7 @@ h6 {
   height: 20px;
 }
 .linkSocial {
-  color: gold;
+  color:#f8b500
 }
 
 .link {
@@ -66,7 +96,6 @@ h6 {
 .linkSocial:hover {
   color: black;
   text-shadow: 1px 1px 1px gray;
-  
 }
 
 .tab-content,
@@ -124,14 +153,14 @@ h6 {
   margin-left: 20px;
 }
 
-footer,
+
 .footer {
   height: 50px;
   text-align: center;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: whitesmoke;
+  background-color:#f7f7f7;
 }
 .galeryBooks {
   padding: 50px;

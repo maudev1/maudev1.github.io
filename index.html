@@ -24,8 +24,9 @@
 
 
     <!-- Custon Css-->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    
 
     <!--Fonts google-->
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
@@ -42,8 +43,8 @@
 
 </head>
 
-<body>
-    <div class="header">
+<body  >
+    <div class="header" id="app" v-bind:class="color" >
 
         <h2 class="brand">Maurício Júnior</h2>
 
@@ -67,12 +68,12 @@
             <a href=" https://twitter.com/Maurici59374932?s=09" target="_blank" class="socialMedia">
                 <i class="fab linkSocial fa-twitter-square"></i>
             </a>
+
+            <button class="socialMedia" v-on:click="color = 'dark'">C</button>
         </form>
-
-
     </div>
 
-    <div class="main">
+    <div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 aside">
@@ -139,13 +140,13 @@
                             <div class="container">
                                 <div class="col-sm-4">
                                     <div class="row">
-                                        <form class="form" method="POST" id="form" action="#">
+                                        <form class="form" method="POST" action="https://formspree.io/mauriciojr.dev@gmail.com">
                                             <div class="form-group">
-                                                <input type="text" name="name" id="name" class="input form-control" placeholder="nome">
+                                                <input type="text" name="name" class="input form-control" placeholder="nome">
                                                 <br>
-                                                <input type="text" name="email" id="email" class="input form-control" placeholder="email">
+                                                <input type="text" name="email" class="input form-control" placeholder="email">
                                                 <br>
-                                                <textarea class="input msg form-control" name="text" id="message" placeholder="sua menssagem..."></textarea>
+                                                <textarea class="input msg form-control" name="text"  placeholder="sua menssagem..."></textarea>
                                                 <hr>
                                                 <button type="submit" class="btn btn-warning">enviar</button>
                                             </div>
@@ -166,21 +167,6 @@
                         <p>Projetos</p>
                     </div>
                     <hr>
-                    <!--
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="img/img1.jpg" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="img/img2.jpg" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="img/img3.jpg" alt="Third slide">
-                            </div>
-                        </div>
-                    </div>-->
-                     
 
                     <div class="twitter">
                         <a class="twitter-timeline" data-width="700" data-height="400" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/Maurici59374932?ref_src=twsrc%5Etfw">Tweets
@@ -197,7 +183,7 @@
 
     </div>
 
-    <div class="galery">
+    <div class="galery" >
 
         <div class="container">
             <div class="row">
@@ -258,6 +244,23 @@
     <div class="footer">
         <p> mauriciojr.dev@gmail.com | 2018</p>
     </div>
+
+    <script src="vue.js"></script>
+    <script>
+        var app = new Vue({
+            el: "#app",
+            data:{
+                color:'default'
+
+
+            }
+
+        })
+    
+    
+    
+    
+    </script>
 
 </body>
 

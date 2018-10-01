@@ -20,13 +20,13 @@
         crossorigin="anonymous"></script>
 
     <!--Custon Js-->
-   <!--<script src="script.js"></script>-->
+    <!--<script src="script.js"></script>-->
 
 
     <!-- Custon Css-->
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    
+
 
     <!--Fonts google-->
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
@@ -43,8 +43,8 @@
 
 </head>
 
-<body  >
-    <div class="header" id="app" v-bind:class="color" >
+<body>
+    <div class="header" id="app" v-bind:class="color">
 
         <h2 class="brand">Maurício Júnior</h2>
 
@@ -57,7 +57,7 @@
             <a href="https://www.linkedin.com/in/mauricio-pedro-2745b4136/" target="_blank" class="socialMedia">
                 <i class="fab linkSocial fa-linkedin"></i>
             </a>
-            <a href="https://medium.com/@jniorsilva_78278" target="_blank" class="socialMedia">
+            <a href="https://medium.com/@mauriciojr.dev" target="_blank" class="socialMedia">
                 <i class="fab linkSocial fa-medium"></i>
 
             </a>
@@ -69,7 +69,7 @@
                 <i class="fab linkSocial fa-twitter-square"></i>
             </a>
 
-            <button class="socialMedia" v-on:click="color = 'dark'">C</button>
+            <!--<button class="socialMedia" v-on:click="color = 'dark'">C</button>-->
         </form>
     </div>
 
@@ -80,27 +80,31 @@
 
                     <nav>
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                            <a class="link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
-                                aria-selected="true">Eu</a>
-                            <a class="link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
-                                aria-selected="false">Skills</a>
-                            <a class="link nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact"
-                                aria-selected="false">Contato</a>
+                            <a class="link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                role="tab" aria-controls="nav-home" aria-selected="true">Eu</a>
+                            <a class="link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                role="tab" aria-controls="nav-profile" aria-selected="false">Skills</a>
+                            <a class="link nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+                                role="tab" aria-controls="nav-contact" aria-selected="false">Contato</a>
                         </div>
                     </nav>
 
                     <div class="tab-content" id="nav-tabContent">
-                        <div data-spy="scroll" class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" data-offset="0">
+                        <div data-spy="scroll" class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab" data-offset="0">
 
                             <img src="img/perfil.gif">
                             <hr>
-                            <p>Estou em busca de uma oportunidade de trabalho (estágio) como front-end, faço faculdade analise
-                                e desenvolvimento de sistemas, ja possuo conhecimentos básicos em html e css, e no momento
+                            <p>Estou em busca de uma oportunidade de trabalho (estágio) como front-end, faço faculdade
+                                analise
+                                e desenvolvimento de sistemas, ja possuo conhecimentos básicos em html e css, e no
+                                momento
                                 estou focado nos estudos em javascript.
                                 <br>
                                 <br> Tenho como características: força de vontade, criatividade e perfeccionismo.
                                 <br>
-                                <br> Viso obter conhecimentos teóricos e práticos para meu desenvolvimento profissional,
+                                <br> Viso obter conhecimentos teóricos e práticos para meu desenvolvimento
+                                profissional,
                                 com foco nos objetivos da empresa. .
                             </p>
 
@@ -110,8 +114,9 @@
                                 <li>
                                     HTML
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                            aria-valuemax="100" style="width: 60%">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 60%">
                                         </div>
                                     </div>
                                 </li>
@@ -119,8 +124,9 @@
                                 <li>
                                     CSS
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                            aria-valuemax="100" style="width: 50%">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 50%">
                                         </div>
                                     </div>
                                 </li>
@@ -128,8 +134,9 @@
                                 <li>
                                     JavaScript
                                     <div class="progress">
-                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                            aria-valuemax="100" style="width: 30%">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                                            style="width: 30%">
                                         </div>
                                     </div>
 
@@ -142,16 +149,45 @@
                                     <div class="row">
                                         <form class="form" method="POST" action="https://formspree.io/mauriciojr.dev@gmail.com">
                                             <div class="form-group">
-                                                <input type="text" name="name" class="input form-control" placeholder="nome">
+                                                <input type="hidden" name="_subject" value="Novo contato!" />
+                                                <input type="hidden" name="_next" value="#"/>
+                                                <input type="hidden" name="_language" value="pt" />
+                                                <input type="text" name="nome" class="input form-control"
+                                                    placeholder="nome">
                                                 <br>
                                                 <input type="text" name="email" class="input form-control" placeholder="email">
+                                                
                                                 <br>
-                                                <textarea class="input msg form-control" name="text"  placeholder="sua menssagem..."></textarea>
+                                                <textarea class="input msg form-control" name="text" placeholder="sua menssagem..."></textarea>
                                                 <hr>
-                                                <button type="submit" class="btn btn-warning">enviar</button>
+                                                <button type="submit" class="btn btn-warning" data-target="#exampleModal">enviar</button>
+                                                <!--Modal-->
+                                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                ...
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                               
+                                               
+                                                </div>
+
                                             </div>
 
                                         </form>
+
 
                                         </p>
                                     </div>
@@ -164,15 +200,16 @@
                 <div class="col-sm-8 projects">
 
                     <div class="label">
-                        <p>Projetos</p>
+                        <p>Blog</p>
                     </div>
                     <hr>
 
                     <div class="twitter">
-                        <a class="twitter-timeline" data-width="700" data-height="400" data-theme="light" data-link-color="#FAB81E" href="https://twitter.com/Maurici59374932?ref_src=twsrc%5Etfw">Tweets
+                        <a class="twitter-timeline" data-width="700" data-height="400" data-theme="light"
+                            data-link-color="#FAB81E" href="https://twitter.com/Maurici59374932?ref_src=twsrc%5Etfw">Tweets
                             by Maurici59374932</a>
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                        
+
                     </div>
 
                 </div>
@@ -183,20 +220,23 @@
 
     </div>
 
-    <div class="galery" >
+    <div class="galery">
 
         <div class="container">
             <div class="row">
                 <div class="itemBox col-sm-12">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                         <li class="nav-item">
-                            <a class="link nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Referencias</a>
+                            <a class="link nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                aria-controls="home" aria-selected="true">Referencias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="link nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Livros</a>
+                            <a class="link nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                aria-controls="profile" aria-selected="false">Livros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="link nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Certificados</a>
+                            <a class="link nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                aria-controls="contact" aria-selected="false">Certificados</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
@@ -249,17 +289,17 @@
     <script>
         var app = new Vue({
             el: "#app",
-            data:{
-                color:'default'
+            data: {
+                color: 'default'
 
 
             }
 
         })
-    
-    
-    
-    
+
+
+
+
     </script>
 
 </body>

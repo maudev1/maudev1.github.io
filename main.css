@@ -1,5 +1,5 @@
 @media only screen and (max-width: 600px) {
-    .header {
+  .header {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -13,12 +13,13 @@
     .brand {
       text-align: center;
       font-size: 18px;
+      margin-bottom: 15px;
     }
 
   .tab-content,
   .tab-pan {
     font-size: 13px;
-    text-align:center;
+    
     margin:25px
    
   }
@@ -65,6 +66,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+   
   }
   
   .navbar {
@@ -144,7 +146,7 @@
   .tab-content,
   .tab-pan {
     font-size: 13px;
-    text-align:;
+    
     margin:25px
    
   }
@@ -157,44 +159,34 @@
   }
   
   .input {
-    font-size: 13px;
+    font-size: 18px;
     width: 200px;
     border-radius: 0px;
     text-align: left;
     font-family: inherit
   }
   
-  .msg {
+  textarea.input {
     height: 200px;
+    
   }
   
-  .input {
-    -webkit-box-shadow: -2px -2px 0px 2px rgba(179, 179, 177, 1);
-    -moz-box-shadow: -2px -2px 0px 2px rgba(179, 179, 177, 1);
-    box-shadow: -2px -2px 0px 2px rgba(179, 179, 177, 1);
-    border: none;
+  .input:hover {
+    box-shadow: 1px 1px 4px 1px rgba(179, 179, 177, 1);
+    
   }
   
   .input:focus {
-    -webkit-box-shadow: 4px 4px 0px 4px rgba(179, 179, 177, 1);
+    -webkit-box-shadow: 2px 2px 0px 1px rgba(179, 179, 177, 1);
     -moz-box-shadow: 4px 4px 0px 4px rgba(179, 179, 177, 1);
-    box-shadow: 4px 4px 0px 4px rgba(179, 179, 177, 1);
+    box-shadow: 2px 2px 3px 1px rgba(179, 179, 177, 1);
+    border:none
   }
-  
  
   .galery,
   .itemBox {
     height: 200px;
   }
-  .books {
-    max-width: 200px;
-    max-height: 150px;
-    width: auto;
-    height: auto;
-    margin-left: 20px;
-  }
-  
-  
   .footer {
    position:fixed;
    left:0;
@@ -204,6 +196,7 @@
    color: black;
 
    text-align:center;
+   box-shadow: 2px 2px 3px 1px rgba(179, 179, 177, 1);
   }
 
   

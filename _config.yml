@@ -17,7 +17,7 @@ title: Maurício Júnior
 email: mauriciojr.dev@gmail.com
 description: "Esse é meu primeiro blog em jekyll a fins de aprendizado!"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://maudev1.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: maudev01
 github_username:  maudev1
 

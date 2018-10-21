@@ -4,6 +4,7 @@
       flex-direction: row;
       flex-wrap: wrap;
       text-align: center;
+      
     }
     .socialLink{
       text-align: center;
@@ -11,15 +12,31 @@
     }
     .brand {
       text-align: center;
-      margin: 25px;
+      font-size: 18px;
     }
-  }
 
+  .tab-content,
+  .tab-pan {
+    font-size: 13px;
+    text-align:center;
+    margin:25px
+   
+  }
+  .form{
+    margin:25px
+  }
+  
+}
   body{
     font-family: 'Carrois Gothic', sans-serif;
     background-color: #ffffff
   }
-
+  li{
+    list-style: none;
+  }
+  p{
+    font-size: 16px
+  }
   h1,
   h2,
   h3,
@@ -115,19 +132,25 @@
     text-decoration: none
   }
 
-  .link {
-    color: rgb(144, 144, 144);
+  .link{
+    color:#26baee;
     text-transform: uppercase;
     font-size: 13px;
   }
-  
+  button.link{
+    color:white
+
+  }
   .tab-content,
   .tab-pan {
     font-size: 13px;
-    text-align: left;
-    padding: 30px 25px;
+    text-align:;
+    margin:25px
+   
   }
-  
+  .form{
+    margin:25px
+  }
   .skills {
     list-style: none;
     padding: 0;
@@ -157,14 +180,8 @@
     -moz-box-shadow: 4px 4px 0px 4px rgba(179, 179, 177, 1);
     box-shadow: 4px 4px 0px 4px rgba(179, 179, 177, 1);
   }
-  .btn {
-    color: white;
-  }
-  .btn:hover,
-  .btn:active {
-    color: white;
-  }
   
+ 
   .galery,
   .itemBox {
     height: 200px;
@@ -202,7 +219,12 @@
   }
   .btn:hover{
     background-color:#73d2f3;
+    color:white
   }
   .btn:active{
     background-color: #73d2f3;
+  }
+  
+  ul{
+    padding: 0px;
   }

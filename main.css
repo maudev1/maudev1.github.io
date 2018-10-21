@@ -9,17 +9,15 @@
       text-align: center;
       margin: auto;
     }
-  
     .brand {
       text-align: center;
       margin: auto;
-      font-family: "Comfortaa", cursive;
     }
   }
-  
- 
+
   body{
-    font-family: "Comfortaa", cursive;
+    font-family: 'Carrois Gothic', sans-serif;
+    background-color: #ffffff
   }
 
   h1,
@@ -28,22 +26,22 @@
   h4,
   h5,
   h6 {
-    
+    text-decoration: none;
     font-weight: lighter;
     text-align: left;
+    color:#10316b
+
   }
   .brand {
-    color:#343434;
-    
-    font-family: "Comfortaa", cursive;
-    
-    font-size: 19px;
+    color:#10316b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
     margin-right: auto;
     width: 250px;
     height: 30px;
   }
   .header {
-    background-color: #e6b31e;
+    background-color: #edf9fc;
     padding: 20px 80px 0px 80px;
     padding-left: 80px;
     padding-right: 80px;
@@ -55,6 +53,7 @@
   .navbar {
     padding: 10px 80px 10px 80px;
   }
+
   .socialMedia {
     font-size: 30px;
     text-decoration: none;
@@ -66,15 +65,14 @@
     
   }
   
-  .aside {
+  .profile {
     padding: 25px;
-    height: 600px;
-    
+    height: auto;
   }
 
-
   .title{
-    font-family: "Comfortaa", cursive;
+    font-family: 'Carrois Gothic', sans-serif;
+   
  }
  .blogPost{
     font-family: inherit;
@@ -88,6 +86,7 @@
     height: 600px;
     
   }
+
   .posts{
     overflow:hidden;
     height: 600px;
@@ -105,14 +104,14 @@
   }
   .linkSocial {
 
-    color:#005792
+    color:#26baee
     /*color:#f8b500*/
   }
   
   .link:hover,
   .linkSocial:hover {
-    color: #db2d43;
-    text-shadow: 1px 1px 1px gray;
+    color: #73d2f3;
+    /*text-shadow: 1px 1px 1px #00adb5;*/
     text-decoration: none
   }
 
@@ -180,12 +179,14 @@
   
   
   .footer {
-    height: 50px;
-    text-align: center;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#f7f7f7;
+   position:fixed;
+   left:0;
+   bottom:0;
+   width: 100%;
+   background-color: fffff;
+   color: black;
+
+   text-align:center;
   }
 
   
@@ -195,3 +196,13 @@
     color:white
   }
   
+  .btn{
+    background-color: #26baee;
+    border:none;
+  }
+  .btn:hover{
+    background-color:#73d2f3;
+  }
+  .btn:active{
+    background-color: #73d2f3;
+  }

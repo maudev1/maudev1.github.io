@@ -1,0 +1,154 @@
+
+<div class="profile">
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="link nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+        aria-controls="nav-home" aria-selected="true">Eu</a>
+      <a class="link nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+        aria-controls="nav-profile" aria-selected="false">Skills</a>
+      <a class="link nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+        aria-controls="nav-contact" aria-selected="false">Contato</a>
+    </div>
+  </nav>
+
+  <div class="tab-content" id="nav-tabContent">
+    <div data-spy="scroll" class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+      data-offset="0">
+
+      <img src={{ "/img/perfil.gif" | prepend: site.baseurl}}>
+      <hr>
+      <p>Estou em busca de uma oportunidade de trabalho (estágio) como front-end, faço faculdade
+        analise
+        e desenvolvimento de sistemas, ja possuo conhecimentos básicos em html e css, e no
+        momento
+        estou focado nos estudos em javascript.
+        <br>
+        <br> Tenho como características: força de vontade, criatividade e perfeccionismo.
+        <br>
+        <br> Viso obter conhecimentos teóricos e práticos para meu desenvolvimento
+        profissional,
+        com foco nos objetivos da empresa. .
+      </p>
+
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                HTML
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar"
+                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                  </div>
+                </div>
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse collapsed" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                CSS
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <li>Bootstrap</li>
+                <li>Materialize</li>
+                <li>Bulma</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                Javascript
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+              richardson ad squid. 3 wolf
+              moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+              nesciunt laborum eiusmod.
+              Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+              coffee nulla assumenda
+              shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+              anderson cred nesciunt sapiente ea
+              proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+              beer farm-to-table, raw denim
+              aesthetic synth nesciunt you probably haven't heard of them accusamus
+              labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+      <div class="container">
+        <div class="col-sm">
+
+          <form class="form" method="POST" action="https://formspree.io/mauriciojr.dev@gmail.com">
+            <div class="form-group">
+              <input type="hidden" name="_subject" value="Novo contato!" />
+              <input type="hidden" name="_next" value="#" />
+              <input type="hidden" name="_language" value="pt" />
+              <input type="text" name="nome" class="input form-control" placeholder="nome">
+              <br>
+              <input type="text" name="email" class="input form-control" placeholder="email">
+
+              <br>
+              <textarea class="input msg form-control" name="text" placeholder="sua menssagem..."></textarea>
+              <hr>
+              <button type="submit" class="btn btn-warning" data-target="#exampleModal">enviar</button>
+
+              <button type="submit"></button>
+              <!--Modal-->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Modal
+                        title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save
+                        changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>

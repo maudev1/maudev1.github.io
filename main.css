@@ -1,0 +1,223 @@
+@media only screen and (max-width: 600px) {
+  .header {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: center;
+      
+    }
+    .socialLink{
+      text-align: center;
+      margin: auto;
+    }
+    .brand {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+  .tab-content,
+  .tab-pan {
+    font-size: 13px;
+    
+    margin:25px
+   
+  }
+  .form{
+    margin:25px
+  }
+  
+}
+  body{
+    font-family: 'Carrois Gothic', sans-serif;
+    background-color: #ffffff
+  }
+  li{
+    list-style: none;
+  }
+  p{
+    font-size: 16px
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-decoration: none;
+    font-weight: lighter;
+    text-align: left;
+    color:#10316b
+
+  }
+  .brand {
+    color:#10316b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin-right: auto;
+    width: 250px;
+    height: 30px;
+  }
+  .header {
+    background-color: #edf9fc;
+    padding: 20px 80px 0px 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+  }
+  
+  .navbar {
+    padding: 10px 80px 10px 80px;
+  }
+
+  .socialMedia {
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  .main {
+    margin: auto;
+    
+  }
+  
+  .profile {
+    padding: 25px;
+    height: auto;
+  }
+
+  .title{
+    font-family: 'Carrois Gothic', sans-serif;
+   
+ }
+ .blogPost{
+    font-family: inherit;
+    font-size:12px;
+    color:red
+    
+ }
+
+  .blog {
+    padding: 25px;
+    height: 600px;
+    
+  }
+
+  .posts{
+    overflow:hidden;
+    height: 600px;
+  }
+  
+  .posts:hover{
+    overflow:scroll;
+    
+  }
+  
+  .label {
+    font-size: 15px;
+    text-transform: uppercase;
+    height: 20px;
+  }
+  .linkSocial {
+
+    color:#26baee
+    /*color:#f8b500*/
+  }
+  
+  .link:hover,
+  .linkSocial:hover {
+    color: #73d2f3;
+    /*text-shadow: 1px 1px 1px #00adb5;*/
+    text-decoration: none
+  }
+
+  .link{
+    color:#26baee;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  button.link{
+    color:white
+
+  }
+  .tab-content,
+  .tab-pan {
+    font-size: 13px;
+    
+    margin:25px
+   
+  }
+  .form{
+    margin:25px
+  }
+  .skills {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .input {
+    font-size: 18px;
+    width: 200px;
+    border-radius: 0px;
+    text-align: left;
+    font-family: inherit
+  }
+  
+  textarea.input {
+    height: 200px;
+    
+  }
+  
+  .input:hover {
+    box-shadow: 1px 1px 4px 1px rgba(179, 179, 177, 1);
+    
+  }
+  
+  .input:focus {
+    -webkit-box-shadow: 2px 2px 0px 1px rgba(179, 179, 177, 1);
+    -moz-box-shadow: 4px 4px 0px 4px rgba(179, 179, 177, 1);
+    box-shadow: 2px 2px 3px 1px rgba(179, 179, 177, 1);
+    border:none
+  }
+ 
+  .galery,
+  .itemBox {
+    height: 200px;
+  }
+  .footer {
+   position:fixed;
+   left:0;
+   bottom:0;
+   width: 100%;
+   background-color:#ffffff;
+   color: black;
+
+   text-align:center;
+   box-shadow: 2px 2px 3px 1px rgba(179, 179, 177, 1);
+  }
+
+  
+  .night-theme{
+    background-color:#757882;
+  
+    color:white
+  }
+  
+  .btn{
+    background-color: #26baee;
+    border:none;
+  }
+  .btn:hover{
+    background-color:#73d2f3;
+    color:white
+  }
+  .btn:active{
+    background-color: #73d2f3;
+  }
+  
+  ul{
+    padding: 0px;
+  }

@@ -1,0 +1,20 @@
+---
+title: Maurício Júnior
+timezone: America/Sao_Paulo
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: mauriciojr.dev@gmail.com
+description: Esse é meu primeiro blog em jekyll a fins de aprendizado!
+baseurl: 
+url: http://maudev1.github.io
+twitter_username: maudev01
+github_username: maudev1
+markdown: kramdown
+theme: minima
+plugins:
+- jekyll-feed

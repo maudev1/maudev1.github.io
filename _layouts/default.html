@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 aside">
+
+        {% include profile.html %}
+
+      </div>
+
+      <div class="col-sm">
+        <div class="blog">
+          <a href="http://maudev1.github.io">
+
+            <h1 class="title">Blog</h1>
+          
+          </a>
+          
+          <div class="posts">
+            <nav class="master-nav">
+
+              {% for page in site.pages %}
+              
+              <a class="link" href="{{ page.url | prepend: site.baseurl }}">
+
+                {{ page.title }}
+
+              </a>
+
+              {% endfor %}
+
+            </nav>
+
+            <p> {{ content }} </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  {% include footer.html %}
+
+</body>
+
+</html>

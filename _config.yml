@@ -10,7 +10,7 @@ collections:
     output: true
 email: mauriciojr.dev@gmail.com
 description: Esse é meu primeiro blog em jekyll a fins de aprendizado!
-baseurl: ''
+baseurl: 
 url: http://maudev1.github.io
 twitter_username: maudev01
 github_username: maudev1

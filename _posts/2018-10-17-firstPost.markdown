@@ -1,10 +1,11 @@
 ---
+title: FIRST POST
+date: 2018-10-17 13:30:38 Z
+categories:
+- start
+- blog
 layout: post
-title:  "FIRST POST"
-date:   2018-10-17 10:30:38 -0300
-categories: start blog
 ---
-
 
 ## Ex ex ea ex exercitation anim enim ut esse non irure consequat sunt ea.
 

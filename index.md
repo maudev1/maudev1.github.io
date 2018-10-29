@@ -1,7 +1,5 @@
---- 
-
+---
 layout: default
-
 ---
 
 {% if site.posts.size == 0 %}

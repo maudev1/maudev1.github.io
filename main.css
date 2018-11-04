@@ -1,5 +1,6 @@
 @media only screen and (max-width: 600px) {
   .header {
+      
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -10,16 +11,21 @@
       text-align: center;
       margin: auto;
     }
+    .socialMedia{
+      font-size:40px;
+    }
     .brand {
       text-align: center;
       font-size: 18px;
       margin-bottom: 15px;
     }
+  .profile{
+    display: none;
+  }
 
   .tab-content,
   .tab-pan {
     font-size: 13px;
-    
     margin:25px
    
   }
@@ -96,12 +102,13 @@
  .blogPost{
     font-family: inherit;
     font-size:12px;
-    color:red
+    
     
  }
 
   .blog {
     padding: 25px;
+    
     
     
   }
@@ -222,13 +229,6 @@
     padding: 0px;
   }
 
-  
-
-  .trans{
-    -webkit-transition: all 1200ms cubic-bezier(0.200, 1.000, 0.210, 1.000);
-    transition: all 1200ms cubic-bezier(0.200, 1.000, 0.210, 1.000);
-}
-  
 
 
   

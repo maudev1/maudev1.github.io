@@ -42,13 +42,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="vueTest.html" target="_blank" >Blog</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="vueTest.html" target="_blank">Blog</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Cursos</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Sobre</a>
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#accordionExample">Sobre</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contato</a>
@@ -60,37 +60,24 @@
 
     <!-- Header -->
     <header class="masthead bg-primary text-white text-center">
-        <div class="container">
+        <div class="container-fluid">
 
             <!--SLIDE MDV-->
             <div class="row">
                 <div class="col-lg">
 
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="img\slide\info1.jpg" alt="First slide">
+                                <img class="mx-auto d-block w-100" src="img/slide/info1.jpg" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="img\slide\info2.jpg" alt="Second slide">
+                                <img class="mx-auto d-block w-70 h-50" src="img/slide/info2.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="img\slide\info3.jpg" alt="Third slide">
+                                <img class="mx-auto d-block w-70 h-50" src="img/slide/info3.jpg" alt="Third slide">
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
 
                 </div>
@@ -111,7 +98,7 @@
             <hr>
 
             <div class="row">
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-6 col-lg-4">
                     <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
                         <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                             <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -122,7 +109,7 @@
                         <img class="img-fluid" src="img/portfolio/studenAlone.png" alt="">
                     </a>
                 </div>
-                <div class="col-md-6 col-lg-6">
+                <div class="col-md-6 col-lg-4">
                     <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
                         <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                             <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
@@ -133,11 +120,22 @@
                         <img class="img-fluid" src="img/portfolio/studentGroup.png" alt="">
                     </a>
                 </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+                        <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                                <i class="fas fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <label>Conversation Class</label>
+                        <img class="img-fluid" src="img/portfolio/conversation.jpg" alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About Section
     <section class="bg-primary text-white mb-0" id="about">
         <div class="container">
             <h2 class="text-center text-uppercase text-white">About</h2>
@@ -162,7 +160,7 @@
             </div>
         </div>
     </section>
-
+ -->
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
@@ -261,13 +259,36 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <h4 class="text-uppercase mb-4">Sobre a YouStart</h4>
-                    <p class="lead mb-0">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-                        adipisci velit...
-                    </p>
+                    <!--<h4 class="text-uppercase mb-4">SOBRE A YOU START </h4>
+                    <p class="lead mb-0">
+                        A YOU START IDIOMAS é a escola de idiomas onde você aprende enquanto se diverte. As Nossas aulas são desenvolvidas para ensinar de forma mais rápida, divertida e eficaz!
+                        A metodologia de ensino da YOU START IDIOMAS permite ao aluno falar, ler, escrever e compreender o novo idioma naturalmente, vivenciando situações do dia a dia, por meio de aulas 100% voltadas para conversação!
+                        
+                    </p>-->
+                    <div class="accordion about" id="accordionExample">
+                        <div class="card about">
+                            <div class="card-header about" id="headingOne">
+                                <h5 class="mb-0 about">
+                                    <button class="btn btn-link about" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                        aria-expanded="true" aria-controls="collapseOne">
+                                       <h4>Sobre a YouStart</h4> 
+                                    </button>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            A YOU START IDIOMAS é a escola de idiomas onde você aprende enquanto se diverte. As Nossas
+                            aulas são desenvolvidas para ensinar de forma mais rápida, divertida e eficaz!
+                            A metodologia de ensino da YOU START IDIOMAS permite ao aluno falar, ler, escrever e
+                            compreender o novo idioma naturalmente, vivenciando situações do dia a dia, por meio de
+                            aulas 100% voltadas para conversação!
+
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
     </footer>
 
     <div class="copyright py-4 text-center text-white">
@@ -294,14 +315,20 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+                        <h2 class="text-secondary text-uppercase mb-0 mx-auto">AULAS INDIVIDUAIS </h2>
                         <hr class="star-dark mb-5">
-                        <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                            assumenda ipsam
-                            nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                            Reprehenderit
-                            soluta, eos quod consequuntur itaque. Nam.</p>
+                        <img class="img-fluid mb-5" src="img/portfolio/studenAlone.png" alt="">
+                        <p class="mb-5">
+                            Destinado à estudantes e profissionais que procuram uma maneira prática, rápida e eficiente
+                            de desenvolver suas habilidades em inglês. O primeiro contato com o idioma é feito de forma
+                            interativa, possibilitando um estudo sobre conhecimentos gerais, atualidades, estrutura
+                            gramatical e muita conversação.
+                            - Material Exclusivo
+                            - Aulas 100% voltadas para conversação
+                            - Exercícios de dicção e pronuncia
+                            - Desenvolvimento de diálogos
+                            - Qualidade e preços acessíveis
+                        </p>
                         <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                             <i class="fa fa-close"></i>
                             Voltar</a>
@@ -320,14 +347,50 @@
             <div class="container text-center">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+                        <h2 class="text-secondary text-uppercase mb-0">AULAS EM GRUPO </h2>
                         <hr class="star-dark mb-5">
-                        <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-                        <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque
-                            assumenda ipsam
-                            nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae?
-                            Reprehenderit
-                            soluta, eos quod consequuntur itaque. Nam.</p>
+                        <img class="img-fluid mb-5" src="img/portfolio/studentGroup.png" alt="">
+                        <p class="mb-5">
+                            Destinado àqueles que procuram desenvolver de uma maneira prática e eficiente o estudo do
+                            idioma, de acordo com objetivo pessoal de cada aluno. Esta modalidade visa a interação dos
+                            alunos por meio do idioma, facilitando a aquisição de um vocabulário funcional e
+                            conhecimentos e curiosidades dos países e cultura americana.
+                            Os Grupos são divididos em:
+                            - KIDS: de 7 a 13 anos;
+                            - TEENS: de 14 a 17 anos;
+                            - ADULTS: a partir de 18 anos.
+                        </p>
+                        <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                            <i class="fa fa-close"></i>
+                            Voltar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Moda 3-->
+
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+        <div class="portfolio-modal-dialog bg-white">
+            <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+                <i class="fa fa-3x fa-times"></i>
+            </a>
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-secondary text-uppercase mb-0">Conversation CLass</h2>
+                        <hr class="star-dark mb-5">
+                        <img class="img-fluid mb-5" src="img/portfolio/conversation.jpg" alt="">
+                        <p class="mb-5">
+
+                            Se você já tem um conhecimento do idioma e busca atualização e formas de manter a prática
+                            do idioma, O CONVERSATION CLASS é ideal! Por meio desta modalidade os alunos e
+                            profissionais poderão aperfeiçoar suas habilidades utilizando a Metodologia Holística:
+                            AUDIÇÃO, ESCRITA, FALA E LEITURA.
+                            - Conversation em Grupo: ATÉ 5 ALUNOS
+                            - Conversation Individual
+
+                        </p>
                         <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                             <i class="fa fa-close"></i>
                             Voltar</a>

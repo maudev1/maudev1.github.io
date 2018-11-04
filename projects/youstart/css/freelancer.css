@@ -163,14 +163,18 @@ section h2 {
     padding-bottom: 1.5rem;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
+    background-color: #BC0D03;
+    
   }
   #mainNav .navbar-brand {
     font-size: 2em;
     -webkit-transition: font-size 0.3s;
     transition: font-size 0.3s;
+   
   }
   #mainNav .navbar-nav {
     margin-top: 0;
+    
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
@@ -423,4 +427,8 @@ a:focus, a:hover, a:active {
 .about{
   background-color: #2C3E50;
   border:none
+}
+
+.navbar-toggler{
+  background-color: #BC0D03;
 }

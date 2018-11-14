@@ -5,7 +5,7 @@
  */
 
 body {
-  font-family: 'Lato';
+  font-family: 'Bree Serif', serif;
 }
 
 h1,
@@ -15,7 +15,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Secular One', sans-serif;
 }
 
 hr.star-light,
@@ -120,7 +120,8 @@ section h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-family: 'Secular One', sans-serif;
   
 }
 
@@ -176,13 +177,13 @@ section h2 {
     margin-top: 0;
     
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+ /* #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
     background: #0D689C;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background:#0D689C;
+    background:#0D689C;*/
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -191,7 +192,7 @@ section h2 {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-}
+
 
 header.masthead {
   padding-top: calc(6rem + 72px);
@@ -349,12 +350,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2C3E50;
+  background-color: #0f4392;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #0f4392;
 }
 
 a {
@@ -386,13 +387,13 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #ff5151;
-  border-color: #ff5151;
+  background-color: #BC0D03;
+  border-color: #BC0D03;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #BC0D03;
-  border-color: #BC0D03;
+  background-color: #ff5151;
+  border-color: #ff5151;
 }
 
 .btn-secondary {
@@ -425,7 +426,7 @@ a:focus, a:hover, a:active {
   }
 
 .about{
-  background-color: #2C3E50;
+  background-color: #0f4392;
   border:none
 }
 

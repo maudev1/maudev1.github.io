@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+.font-custom1{
+    font-family: 'Major Mono Display', monospace;
+    text-transform: lowercase
+}
+p,
+.btn,
+.font-custom2{
+    font-family: 'Krub', sans-serif;
+    text-transform: lowercase;
+}
+
+.page-link{
+
+    font-family: 'Krub', sans-serif;
+    text-transform: lowercase;
+    color:red;
+}
+
+.page-link:hover{
+    color:black;
+
+}
+
+ul,
+.socialLink,
+.linkSocial{
+   font-size: 28px;
+   list-style: none;
+   text-decoration: none;
+   margin:8px;
+}
+
+.linkSocial:hover{
+    color:rgb(83, 0, 0)
+}

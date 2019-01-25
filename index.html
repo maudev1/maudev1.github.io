@@ -69,8 +69,8 @@
             </a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
-            </li>
+            <a class="nav-link" href="#" data-toggle="modal" data-target="#aboutModal">Sobre</a>
+          </li>
           <!--<li class="nav-item">
               <a class="nav-link" href="#"></a>
             </li>-->
@@ -82,7 +82,7 @@
     </div>
   </nav>
 
-  <!---MODAL CONTACT-->
+  <!--- CONTACT MODAL-->
 
   <div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -143,9 +143,30 @@
     </div>
   </div>
 
-  <!--END MODAL CONTACT-->
-  <!-- MODAL ABOUT-->
-  
+  <!--END CONTACT MODAL -->
+
+  <!-- ABOUT MODAL -->
+  <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sobre min</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="rounded mx-auto d-block" src="img/profile.gif" />
+          <br>
+          <p> Hi, my name is Mauricio jr i create websites and love coffe and beer!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END ABOUT MODAL-->
 
   <!-- Page Content -->
   <div class="container">

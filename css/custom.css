@@ -30,7 +30,8 @@ ul,
    font-size: 28px;
    list-style: none;
    text-decoration: none;
-   margin:8px;
+   margin-top:8px;
+   margin-right: 8px;
 }
 
 .linkSocial:hover{

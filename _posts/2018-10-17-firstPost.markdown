@@ -2,6 +2,7 @@
 title: FIRST POST
 date: 2018-10-17 10:30:38 -03:00
 categories:
+- OLD
 - start
 - blog
 layout: post
